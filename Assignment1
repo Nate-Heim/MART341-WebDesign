@@ -1,0 +1,16 @@
+//This is a blank file just for the purposes of turning in the first assignment, however, I will leave the code for the most basic program every programmer starts with in both java and python below.
+
+//Java Version
+
+public class HelloWorld {
+
+  public static void main(String([] args) {
+
+    System.out.print("Hello, World");
+    }
+}
+
+
+#Python Version
+
+print("\nHello, World\n")
