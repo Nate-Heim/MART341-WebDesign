@@ -13,7 +13,7 @@ Here is a simple paragraph with some links. The first is ym absolute aka full ur
 
 Here is a new paragraph with a pic ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
+Sources:
 
+Image: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links
 
-you can even add an image
-![Alt text](imageExample.gif)
