@@ -5,3 +5,4 @@ Here is a picture of my text editor in action
 
 And here is one of when it is done:
 
+![Alt text](image-1.png)
