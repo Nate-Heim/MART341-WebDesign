@@ -1,0 +1,1 @@
+Assignment 7 is a made up company I made. 
