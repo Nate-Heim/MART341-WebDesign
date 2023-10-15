@@ -1,1 +1,2 @@
-Assignment 7 is a made up company I made. 
+Assignment 7 is a made up company I made. I wanted to make it look more realistic so I may have added a lot of extra elements here like other boxes and questionaires just
+to make it look more like an actual website for a company.
