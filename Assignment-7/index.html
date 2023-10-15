@@ -140,8 +140,9 @@
 
         <input type="submit" name="submit" value="Submit" />
     </form>
+
     <form>
-        How did you hear about us?<br />
+        <h1>How did you hear about us?</h1><br />
         <select id="hear" name="hear">
             <option value="friend">Friend</option>
             <option value="boughtaproduct">Bought a product</option>
@@ -149,9 +150,11 @@
             <option value="employee">Employee</option>
             <option value="other">Other</option>
         </select>
-        <br />
+        If you chose other, please specify:<br />
+            <input type="text" id="other" name="other" placeholder="Enter your response here" autofocus required>
+            <br />
 
-        <br>What type of games do you play?<br />
+        What type of games do you play?<br />
             <input type="checkbox" id="game" name="game" value="fps" /> First Person Shooter
             <br />
             <input type="checkbox" id="game" name="game" value="rpg" /> Role Playing Game
@@ -166,7 +169,7 @@
             <br />
             <input type="checkbox" id="game" name="game" value="" /> Other
             <br />
-        <br>What is your favorite gaming platform?<br />
+        What is your favorite gaming platform?<br />
             <input type="radio" id="platform" name="platform" value="pc" /> PC
             <br />
             <input type="radio" id="platform" name="platform" value="xbox" /> Xbox
