@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Nyxion Gaming</title>
+    <!--defining character set-->
+    <meta charset="UTF-8">
+    <!--Defining Page Description-->
+    <meta name="description" content="This is a page for Nyxion Gaming">
+    <!--Defining information about the author-->
+    <meta name="author" content="Nate Heim">
+    <!--Defining viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--style elements for body and table-->
+    <style>
+        body {
+            background-color: #000000;
+            color: olive;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-size: 12px;
+        }
+        table {
+            border: 1px solid gold;
+            border-collapse: collapse;
+        }
+        </style>
+    </head>
+
+    <body>
+        <!--Designed the logo on https://www.designevo.com/apps/logo/?name=golden-anubis-figure-outline then put it in paint -->
+        <img src="images/nyxiongaminglogo.jpg" alt="Nyxion Gaming Logo" width="100" height="100">
+        
+        <h2>Hours of Operation</h2>
+        <p>
+            <table>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday</td>
+                    <td>8:00am - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>8:00am - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>8:00am - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>8:00am - 5:00pm</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>9:00am - 6:00pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10:00am - 3:00pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+        </p>
+    <br>
+    <h2>
+        Want to join our team? Fill out the form below!
+    </h2>
+    <form method="post" action="index.html">
+        Name:<br />
+        <input type="text" id="name" placeholder="Enter First & Last Name" autofocus required>
+        <h3>What position are you applying for?</h3>
+        <input type="radio" id="position" name="position" value="Web Developer" required>
+        <label for="position">Web Developer</label><br>
+        <input type="radio" id="position" name="position" value="Graphic Designer" required>
+        <label for="position">Graphic Designer</label><br>
+        <input type="radio" id="position" name="position" value="Video Editor" required>
+        <label for="position">Video Editor</label><br>
+        <input type="radio" id="position" name="position" value="Social Media Manager" required>
+        <label for="position">Social Media Manager</label><br>
+        <input type="radio" id="position" name="position" value="Customer Service" required>
+        <label for="position">Customer Service</label><br>
+        <input type="radio" id="position" name="position" value="CyberSecurity Specialist" required>
+        <label for="position">CyberSecurity Specialist</label><br>
+        <input type="radio" id="position" name="position" value="Other" required>
+        <label for="position">Other</label><br>
+        <h3>Why do you want to join our team?</h3>
+        <textarea id="why" name="why" rows="4" cols="50" placeholder="Enter your response here" required></textarea>
+        <h3>What are your qualifications?</h3>
+        <textarea id="qualifications" name="qualifications" rows="4" cols="50" placeholder="Enter your response here" required></textarea>
+        <h3>What is your favorite game?</h3>
+        <textarea id="game" name="game" rows="4" cols="50" placeholder="Enter your response here" required></textarea>
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+    <form>
+        How did you hear about us?<br />
+        <select id="hear" name="hear">
+            <option value="friend">Friend</option>
+            <option value="boughtaproduct">Bought a product</option>
+            <option value="socialmedia">Social Media</option>
+            <option value="employee">Employee</option>
+            <option value="other">Other</option>
+        </select>
+        <br />
+        <br>What type of games do you play?<br />
+        <input type="checkbox" id="game" name="game" value="fps" /> First Person Shooter
+        <br />
+        <input type="checkbox" id="game" name="game" value="rpg" /> Role Playing Game
+        <br />
+        <input type="checkbox" id="game" name="game" value="mmo" /> Massively Multiplayer Online
+        <br />
+        <input type="checkbox" id="game" name="game" value="sports" /> Sports
+        <br />
+        <input type="checkbox" id="game" name="game" value="racing" /> Racing
+        <br />
+        <input type="checkbox" id="game" name="game" value="strategy" /> Strategy
+        <br />
+        <input type="checkbox" id="game" name="game" value="" /> Other
+    </form>
+    <form>
+        <h2>Want to join our mailing list?</h2>
+        <input type="text" id="email" placeholder="Enter your email address" autofocus required>
+        <br>
+        <input type="submit" name="submit" value="Submit" />
+    </form>
+    <br>
+
+    <h1>Contact Information</h1>
+        <address>
+            <p>Nyxion Gaming</p>
+            <p>1600 Pennsylvania Ave</p>
+            <p>Washington DC, DC 20500</p>
+            <p>Phone: 605-477-3018</p>
+        </address>
+</html>
