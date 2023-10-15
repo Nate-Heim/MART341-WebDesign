@@ -88,30 +88,57 @@
     <h2>
         Want to join our team? Fill out the form below!
     </h2>
+    <!--separating the inputs to make them more readable instead of a massive block of code-->
     <form method="post" action="index.html">
         Name:<br />
         <input type="text" id="name" placeholder="Enter First & Last Name" autofocus required>
+        <br />
+        Email:<br />
+        <input type="text" id="email" placeholder="Enter Email Address" autofocus required>
+        <br />
+        Phone Number:<br />
+        <input type="text" id="phone" placeholder="Enter Phone Number" autofocus required>
+        <br />
+
         <h3>What position are you applying for?</h3>
+
+        <input type="radio" id="position" name="position" value="Web Designer" required>
+        <label for="position">Web Designer</label>
+        <br>
         <input type="radio" id="position" name="position" value="Web Developer" required>
-        <label for="position">Web Developer</label><br>
+        <label for="position">Web Developer</label>
+        <br>
         <input type="radio" id="position" name="position" value="Graphic Designer" required>
-        <label for="position">Graphic Designer</label><br>
+        <label for="position">Graphic Designer</label>
+        <br>
         <input type="radio" id="position" name="position" value="Video Editor" required>
-        <label for="position">Video Editor</label><br>
+        <label for="position">Video Editor</label>
+        <br>
         <input type="radio" id="position" name="position" value="Social Media Manager" required>
-        <label for="position">Social Media Manager</label><br>
+        <label for="position">Social Media Manager</label>
+        <br>
         <input type="radio" id="position" name="position" value="Customer Service" required>
-        <label for="position">Customer Service</label><br>
+        <label for="position">Customer Service</label>
+        <br>
         <input type="radio" id="position" name="position" value="CyberSecurity Specialist" required>
-        <label for="position">CyberSecurity Specialist</label><br>
+        <label for="position">CyberSecurity Specialist</label>
+        <br>
         <input type="radio" id="position" name="position" value="Other" required>
-        <label for="position">Other</label><br>
+        <label for="position">Other</label>
+        <br>
+        <input type="text" id="other" name="other" placeholder="Enter your response here" autofocus required>
+        <br />
+        
         <h3>Why do you want to join our team?</h3>
         <textarea id="why" name="why" rows="4" cols="50" placeholder="Enter your response here" required></textarea>
+
         <h3>What are your qualifications?</h3>
         <textarea id="qualifications" name="qualifications" rows="4" cols="50" placeholder="Enter your response here" required></textarea>
+
         <h3>What is your favorite game?</h3>
         <textarea id="game" name="game" rows="4" cols="50" placeholder="Enter your response here" required></textarea>
+        <br />
+
         <input type="submit" name="submit" value="Submit" />
     </form>
     <form>
@@ -124,6 +151,7 @@
             <option value="other">Other</option>
         </select>
         <br />
+
         <br>What type of games do you play?<br />
         <input type="checkbox" id="game" name="game" value="fps" /> First Person Shooter
         <br />
@@ -138,6 +166,35 @@
         <input type="checkbox" id="game" name="game" value="strategy" /> Strategy
         <br />
         <input type="checkbox" id="game" name="game" value="" /> Other
+        <br />
+        <br>What is your favorite gaming platform?<br />
+        <input type="radio" id="platform" name="platform" value="pc" /> PC
+        <br />
+        <input type="radio" id="platform" name="platform" value="xbox" /> Xbox
+        <br />
+        <input type="radio" id="platform" name="platform" value="playstation" /> Playstation
+        <br />
+        <input type="radio" id="platform" name="platform" value="nintendo" /> Nintendo
+        <br />
+        <input type="radio" id="platform" name="platform" value="mobile" /> Mobile
+        <br />
+        <input type="radio" id="platform" name="platform" value="other" /> Other
+        <br />
+        What type of game would you like to see us develop next?<br />
+        <select id="game" name="game">
+            <option value="fps">First Person Shooter</option>
+            <option value="rpg">Role Playing Game</option>
+            <option value="mmo">Massively Multiplayer Online</option>
+            <option value="sports">Sports</option>
+            <option value="racing">Racing</option>
+            <option value="strategy">Strategy</option>
+            <option value="other">Other</option>
+        </select>
+        If you chose other, please specify:<br />
+        <input type="text" id="other" name="other" placeholder="Enter your response here" autofocus required>
+        <br />
+        <input type="submit" name="submit" value="Submit" />
+
     </form>
     <form>
         <h2>Want to join our mailing list?</h2>
