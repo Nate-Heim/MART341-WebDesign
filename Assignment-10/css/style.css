@@ -1,0 +1,48 @@
+/*I followed along with your css after reading the docs beccause the way you put it made sense to me*/
+
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/*aligning the containers to the center for the most part*/
+div.align-center{
+    text-align: center;
+}
+
+.primary-container{
+    border-style: ridge;
+    border-width: 10px;
+    padding: 7px;
+    border-color:gold;
+    /*border is gold, with a width of 10, padding it to 7px and ridged*/
+
+    background : steelblue;
+    width: 75%;
+    margin: auto;
+    /*background is steelblue, width is 75% and margin is auto. I did follow Cory's example here due to me liking the width of his example*/
+}
+
+.basic-container{
+
+    margin: auto;
+    width: 50%;
+    padding: 100px;
+    border-bottom : 2px black solid; 
+    /*margin is auto, width is 50%, padding is 100px and border is 2px solid black though the solid part was recommended by my code editor so I did that if you can tell me why
+    it did that I would be interested in knowing, does it really matter if its solid or just a plain color?*/
+    border-spacing: inherit; /*again first option of my editor */
+
+
+}
+
+#titleheader{
+    position: relative;
+    top: 0px;
+    left: 25px;
+    right: 0px;
+    opacity: 0.8;
+    font-size: 50px;
+    color:silver;
+    /*position is relative, top is 0px, left is 25px, right is 0px, opacity is 0.8, font size is 50px and color is silver*/
+}
