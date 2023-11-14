@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Teko';
-    src: url(../fonts/Teko-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/static/Teko-Medium.ttf) format('truetype');
     font-style: 'italic';
 }
 @font-face {
     font-family: 'Teko';
-    src: url(../fonts/Teko-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/static/Teko-Regular.ttf) format('truetype');
     font-style: 'normal';
 }
 @font-face {
     font-family: 'Teko';
-    src: url(../fonts/Teko-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/static/Teko-Bold.ttf) format('truetype');
     font-style: 'bold';
 }
 @font-face {
     font-family: 'Teko';
-    src: url(../fonts/Teko-VariableFont_wght.ttf) format('truetype');
+    src: url(../fonts/static/Teko-SemiBold.ttf) format('truetype');
     font-style: 'bold italic';
 }
 /*im trying a downloaded font called teko*/
