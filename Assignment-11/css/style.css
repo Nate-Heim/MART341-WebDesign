@@ -26,7 +26,7 @@ div{
 }
 
 #mithrilarmor:hover:after {
-    content: "you only get this AFTER you beat the game, oh yeah and *spoiler alert* you have to fight a dragon.";
+    content: " you only get this AFTER you beat the game, oh yeah and *spoiler alert* you have to fight a dragon.";
     font-family: 'Teko';
     font-weight: 400;
     color: goldenrod;
