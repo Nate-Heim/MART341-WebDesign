@@ -2,6 +2,7 @@ div{
     font-family: 'Teko';
     font-style: normal;
     margin: auto;
+    width: auto;
     padding: .5em;
     border: 1px solid black;
     border-style: ridge;
@@ -29,7 +30,7 @@ div{
     font-family: 'Teko';
     font-weight: 400;
     color: goldenrod;
-    font-style: bold;
+    font-style: bold italic;
 }
 
 #LotR{
