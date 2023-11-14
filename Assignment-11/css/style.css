@@ -1,0 +1,50 @@
+div{
+    font-family: 'Teko';
+    font-style: normal;
+    margin: .5em;
+    padding: .5em;
+    border: 1px solid black;
+
+}
+
+.title{
+    font-family:'Teko';
+    font-size: 74px;
+    font-style: 'bold';
+    color: peru;
+    background-color: slategrey;
+    text-align: center;
+}
+
+#mithrilarmor{
+    font-family: 'Teko';
+    font-weight: 600;
+    font-style: bold;
+}
+
+#mithrilarmor:hover:after {
+    content: "you only get this AFTER you beat the game, oh yeah and *spoiler alert* you have to fight a dragon.";
+    font-family: 'Teko';
+    font-weight: 400;
+    color: goldenrod;
+    font-style: bold italic;
+}
+
+#LotR{
+    font-family: 'Teko';
+    font-weight: 600;
+    font-style: bold;
+}
+
+#LotR:hover {
+    background: url("../images/lotr-rtm.jpg");
+    float: right;
+    height: 400px;
+    width: 400px;
+    display: block;
+}
+
+#underline {
+    text-decoration: underline;
+    text-transform:capitalize;
+}
