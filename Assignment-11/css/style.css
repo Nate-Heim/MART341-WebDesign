@@ -42,6 +42,7 @@ div{
 #LotR:hover {
     background: url("../images/lotr-rtm.jpg");
     float: right;
+    object-fit: contain;
     height: 500px;
     width: 700px;
 }
