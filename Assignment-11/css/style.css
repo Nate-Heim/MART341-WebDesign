@@ -21,7 +21,7 @@ div{
 #mithrilarmor{
     font-family: 'Teko';
     font-weight: 600;
-    font-style: bold;
+    font-style: italic;
 }
 
 #mithrilarmor:hover:after {
@@ -29,7 +29,7 @@ div{
     font-family: 'Teko';
     font-weight: 400;
     color: goldenrod;
-    font-style: bold italic;
+    font-style: bold;
 }
 
 #LotR{
