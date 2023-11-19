@@ -206,6 +206,7 @@
         
         .dropdown-content a:hover {
             background-color: #ddd;
+            display: block;
         }
         
         .dropdown:hover .dropdown-content {
