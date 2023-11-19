@@ -167,15 +167,9 @@
         }
         
         .dropdown {
+            position: relative;
+            display: inline-block;
             margin-left: 20px; /* Adjusted margin for spacing */
-        }
-
-        .dropdown-item {
-            display: block;
-            text-align: left;
-            margin: 0;
-            padding: 0.5em;
-            min-width: 7em;
         }
         
         .dropdown .dropbtn {
@@ -189,7 +183,8 @@
             margin: 0;
         }
         
-        .navbar a:hover, .dropdown:hover .dropbtn {
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
             background-color: red;
         }
         
@@ -198,7 +193,7 @@
             position: absolute;
             background-color: #f9f9f9;
             min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
             z-index: 1;
         }
         
@@ -218,6 +213,7 @@
         
         .dropdown:hover .dropdown-content {
             display: block;
+            z-index: 2; /* Ensure the dropdown is on top of other elements */
         }
 
         /*I keep adding more, and yes a lot of these probably wont be used however I keep changing it because I dont like the look */
