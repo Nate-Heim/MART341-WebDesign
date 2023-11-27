@@ -186,6 +186,7 @@
         .navbar a:hover,
         .dropdown:hover .dropbtn {
             background-color: red;
+            position: absolute;
         }
         
         .dropdown-content {
@@ -205,6 +206,7 @@
             display: block;
             text-align: left;
             z-index: 5;
+            position: absolute;
         }
         
         .dropdown-content a:hover {
