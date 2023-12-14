@@ -1,5 +1,6 @@
 body {
     padding-top: 50px;
+    background-color: #800000;
 }
 
 .navbar {
@@ -8,13 +9,27 @@ body {
 
 .container {
     margin-top: 20px;
+    text-align: center;
 }
 
 canvas {
     border: 1px solid #000;
+    background-color: #d3d3d3;
+    margin-top: 20px;
 }
 
 .footer {
     padding: 10px;
     color: white;
+    text-align: center;
+    background-color: #333;
+}
+
+/* Dragon-specific styles */
+canvas#dragonCanvas {
+    border: 1px solid #00695c;
+    background-color: #b2dfdb;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
