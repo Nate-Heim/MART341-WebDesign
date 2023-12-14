@@ -2,20 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="author" content="Nate Heim">
+    <meta name="description" content="Assignment 14">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Navbar Example</title>
+    <title>Welcome to My World</title>
 
-    <!-- Include Bootstrap CSS from the "css" folder -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
-    <!-- Include your custom styles -->
-    <link rel="stylesheet" href="path/to/styles.css">
 </head>
 <body>
 
     <!-- Navbar using Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Change Me</a>
+        <a class="navbar-brand" href="#">Nyx Industries</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,7 +24,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="pages/about.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Services</a>
@@ -37,15 +36,38 @@
         </div>
     </nav>
 
-    <!-- Your content goes here -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>History of Star Wars: The Old Republic</h2>
+                <p>Star Wars: The Old Republic is a massively multiplayer online role-playing game (MMORPG) set in the Star Wars universe. It was developed by BioWare and released in 2011. The game explores the rich history of the Star Wars galaxy, allowing players to experience epic storylines and engage in intense lightsaber battles.</p>
+            </div>
+            <div class="col-md-6">
+                <!-- Placeholder for the second container -->
+            </div>
+        </div>
+    </div>
 
-    <!-- Include Bootstrap JS and Popper.js from the "js" folder -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+                <h2>History of Final Fantasy XIV</h2>
+                <p>Final Fantasy XIV is a popular MMORPG developed and published by Square Enix. Initially released in 2010, the game faced challenges but underwent a remarkable overhaul with the release of "Final Fantasy XIV: A Realm Reborn" in 2013. It has since become one of the most beloved and successful MMORPGs, offering a vast world and engaging gameplay.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-5 bg-dark text-light">
+        <div class="container">
+            <p>&copy; 2023 Nyx Industries LLC</p>
+        </div>
+    </footer>
+
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Include your custom scripts -->
-    <script src="path/to/your-custom-script.js"></script>
 
 </body>
 </html>
