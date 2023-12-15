@@ -41,6 +41,7 @@
             <div class="col-md-6">
                 <h2>History of Star Wars: The Old Republic</h2>
                 <p>Star Wars: The Old Republic is a massively multiplayer online role-playing game (MMORPG) set in the Star Wars universe. It was developed by BioWare and released in 2011. The game explores the rich history of the Star Wars galaxy, allowing players to experience epic storylines and engage in intense lightsaber battles.</p>
+                <canvas id="starWarsCanvas" width="400" height="200"></canvas>
             </div>
             <div class="col-md-6">
                 <!-- Placeholder for the second container, dont know yet what to put fix me -->
@@ -68,6 +69,13 @@
     <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        var canvas = document.getElementById("starWarsCanvas");
+        var context = canvas.getContext("2d");
+        context.fillStyle = "yellow";
+        context.fillRect(10, 10, 50, 50);
+    </script>
 
 </body>
 </html>
